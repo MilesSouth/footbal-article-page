@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="d-flex align-items-center justify-content-between">
       <div className="logo h2 p-4">
-        <span className="text-white">Atalay Ferit</span>
+        <span className="text-white">Atalay Ferit Özdemir</span>
       </div>
       <div className="nav p-4">
         <Nav variant="pills" defaultActiveKey="/home" className="gap-2 ">
