@@ -2,12 +2,12 @@ import Nav from "react-bootstrap/Nav"
 
 const Header = () => {
   return (
-    <header className="header d-flex p-2 align-items-center justify-content-between">
+    <div className="d-flex align-items-center justify-content-between">
       <div className="logo h2 p-4">
         <span className="text-white">Atalay Ferit</span>
       </div>
-      <div className="nav">
-        <Nav variant="pills" defaultActiveKey="/home" className="gap-2">
+      <div className="nav p-4">
+        <Nav variant="pills" defaultActiveKey="/home" className="gap-2 ">
           <Nav.Item>
             <Nav.Link href="#home" className="text-white">
               Anasayfa
@@ -34,7 +34,7 @@ const Header = () => {
           </Nav.Item>
         </Nav>
       </div>
-    </header>
+    </div>
   )
 }
 
