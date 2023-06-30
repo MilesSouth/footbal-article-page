@@ -7,13 +7,9 @@ const Header = () => {
         <span className="text-white">Atalay Ferit</span>
       </div>
       <div className="nav">
-        <Nav
-          variant="pills"
-          defaultActiveKey="/home"
-          className="just-content-end gap-2"
-        >
+        <Nav variant="pills" defaultActiveKey="/home" className="gap-2">
           <Nav.Item>
-            <Nav.Link href="/home" target="_blank" className="text-white">
+            <Nav.Link href="#home" className="text-white">
               Anasayfa
             </Nav.Link>
           </Nav.Item>
@@ -27,12 +23,12 @@ const Header = () => {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#" target="_blank" className="text-white">
+            <Nav.Link href="#about" className="text-white">
               Hakkımda
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#" target="_blank" className="text-white">
+            <Nav.Link href="#team" className="text-white">
               Ekip ve Destek
             </Nav.Link>
           </Nav.Item>
