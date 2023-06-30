@@ -1,7 +1,15 @@
+@import "./variables";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(236, 123, 142);
 }
 
 .header {
-  background-color: rgb(19, 234, 234);
+  background-color: $fbBlue;
+  height: 6rem;
 }
