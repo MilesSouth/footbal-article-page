@@ -6,7 +6,9 @@
 }
 
 body {
-  background-color: rgb(236, 123, 142);
+  background-image: url("https://cdn.pixabay.com/photo/2018/06/07/08/12/trophy-3459584_1280.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header {
@@ -18,16 +20,19 @@ body {
 }
 
 .main-img {
-  opacity: 80%;
+  opacity: 0%;
   z-index: -1;
   width: 100vw;
   height: calc(100vh - 6rem);
   object-fit: cover;
+  border: 0 5px 0 white;
 }
 .about-par {
   display: flex;
   justify-content: center;
-  background-color: rgba(223, 221, 221, 0.919);
+  background-color: #001222db;
+  color: white;
+  font-size: larger;
   position: absolute;
   top: 18rem;
   width: 50%;

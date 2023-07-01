@@ -14,11 +14,7 @@ const Header = () => {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link
-              href="https://aferit.medium.com"
-              target="_blank"
-              className="text-white"
-            >
+            <Nav.Link href="#articles" className="text-white">
               Yazılarım
             </Nav.Link>
           </Nav.Item>
