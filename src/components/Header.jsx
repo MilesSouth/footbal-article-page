@@ -9,22 +9,22 @@ const Header = () => {
       <div className="nav p-4">
         <Nav variant="pills" defaultActiveKey="/home" className="gap-2 ">
           <Nav.Item>
-            <Nav.Link href="#home" className="text-white">
+            <Nav.Link href="#home" className="text-white btn btn-secondary">
               Anasayfa
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#articles" className="text-white">
+            <Nav.Link href="#articles" className="text-white btn btn-secondary">
               Yazılarım
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#about" className="text-white">
+            <Nav.Link href="#about" className="text-white btn btn-secondary">
               Hakkımda
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#team" className="text-white">
+            <Nav.Link href="#team" className="text-white btn btn-secondary">
               Ekip ve Destek
             </Nav.Link>
           </Nav.Item>

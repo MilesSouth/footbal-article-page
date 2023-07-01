@@ -2,7 +2,7 @@ import "./sass/App.scss"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Header from "./components/Header"
 import Home from "./components/Home"
-import ArticleCard from "./components/ArticleCard"
+import CardSection from "./components/CardSection"
 
 function App() {
   return (
@@ -12,13 +12,7 @@ function App() {
       </header>
       <main className="">
         <Home></Home>
-        <div id="articles">
-          <ArticleCard></ArticleCard>
-          <ArticleCard></ArticleCard>
-          <ArticleCard></ArticleCard>
-          <ArticleCard></ArticleCard>
-          <ArticleCard></ArticleCard>
-        </div>
+        <CardSection></CardSection>
       </main>
     </div>
   )
