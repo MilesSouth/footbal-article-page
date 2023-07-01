@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="d-flex justify-content-center">
+    <div className="d-flex justify-content-center" id="about">
       <img
         src="https://cdn.pixabay.com/photo/2018/06/07/08/12/trophy-3459584_1280.jpg"
         alt=""

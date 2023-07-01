@@ -3,15 +3,15 @@ import Card from "react-bootstrap/Card"
 const ArticleCard = ({ img, title, description, link }) => {
   return (
     <Card
-      style={{ width: "18rem" }}
+      style={{ width: "20rem" }}
       bg="dark"
       text="light"
-      className="mb-3 d-flex align-items-end"
+      className=" d-flex align-items-end"
     >
       <Card.Img variant="top" src={img} style={{ objectFit: "cover" }} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
-        <Card.Text>{description}</Card.Text>
+        <Card.Text className="text-justify">{description}</Card.Text>
         <a href={link} target="_blank" className="btn btn-outline-primary">
           Devamını Oku
         </a>

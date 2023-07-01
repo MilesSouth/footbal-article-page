@@ -14,13 +14,13 @@ const Header = () => {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#articles" className="text-white btn btn-secondary">
-              Yazılarım
+            <Nav.Link href="#about" className="text-white btn btn-secondary">
+              Hakkımda
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#about" className="text-white btn btn-secondary">
-              Hakkımda
+            <Nav.Link href="#articles" className="text-white btn btn-secondary">
+              Yazılarım
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
