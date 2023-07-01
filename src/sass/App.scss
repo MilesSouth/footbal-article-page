@@ -20,4 +20,18 @@ body {
 .main-img {
   opacity: 80%;
   z-index: -1;
+  width: 100vw;
+  height: calc(100vh - 6rem);
+  object-fit: cover;
+}
+.about-par {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(223, 221, 221, 0.919);
+  position: absolute;
+  top: 18rem;
+  width: 50%;
+  padding: 15px 20px 10px;
+  border-radius: 12px;
+  text-align: justify;
 }

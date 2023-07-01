@@ -1,5 +1,6 @@
-import Header from "./components/Header"
 import "./sass/App.scss"
+import Header from "./components/Header"
+import Home from "./components/Home"
 import "bootstrap/dist/css/bootstrap.min.css"
 function App() {
   return (
@@ -7,12 +8,9 @@ function App() {
       <header className="header position-sticky">
         <Header></Header>
       </header>
-
-      <img
-        src="https://cdn.pixabay.com/photo/2018/06/07/08/12/trophy-3459584_1280.jpg"
-        alt=""
-        className="main-img"
-      />
+      <main className="">
+        <Home></Home>
+      </main>
     </div>
   )
 }
